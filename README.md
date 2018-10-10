@@ -2,24 +2,14 @@
 Simples aplicação feita em NodeJS para realizar requisições em uma aplicação feita em PHP.
 
  ## Pré-requisitos
- - PHP 7.0+
- - MySQL
+ - NodeJS 8.10+
 
 ## Instruções
 
  - Execute o comando `cp .env.example .env`
  - Altere as informações do arquivo `.env`
- - Rodar `composer install`
-
-## Banco de dados
-
-Crie um banco de dados no AWS RDS e execute o seguinte script:
-
-    USE database_name;
-    CREATE TABLE `cars` (
-        `id` INT NOT NULL AUTO_INCREMENT,
-        `marca` VARCHAR(45) NULL,
-        `modelo` VARCHAR(45) NULL,
-        `fabricacao` VARCHAR(45) NULL,
-        PRIMARY KEY (`id`)
-    );
+ - Rodar `npm install`
+ 
+## Testes
+ 
+ `comando para rocar teste`
