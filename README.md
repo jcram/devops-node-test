@@ -12,5 +12,5 @@ Simples aplicação feita em NodeJS para realizar requisições em uma aplicaç�
  - Rodar `npm install`
  
 ## Testes
- 
- `comando para rocar teste`
+
+- Rodar `npm tests`
